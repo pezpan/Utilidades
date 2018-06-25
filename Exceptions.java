@@ -33,4 +33,9 @@ public class Exceptions {
 	    }	    
 	    return true; 
 	}
+	
+	public void setMyMap(Map<Key, List<Value>> map) {
+    if (map != null) myMap = map ? 
+         new HashMap<Key,Value>();
+ }
 }
